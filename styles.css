@@ -50,7 +50,7 @@ nav.mainnav a{
 nav.mainnav ul {
     display: flex;
     margin-left: auto;
-    justify-content: center;
+    justify-content: center; /*center position for menu */
     align-items: center;
     gap: 24px;
     height: inherit;
@@ -76,4 +76,8 @@ div.socials ul{
     display: flex;
     gap: 22px;
     font-size: 20px;
+}
+
+section.projects {
+    height: 100vh;
 }
