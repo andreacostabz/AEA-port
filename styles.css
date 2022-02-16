@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section.main {
+    height: 100vh;
+    display: flex;
+    background-image: url("./images/Frame2.svg") ,url("./images/bk1.svg");
+    background-repeat: no-repeat,no-repeat;
+    background-size:5%, cover;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+    font-family: 'Inter', sans-serif;
+}
+
+.p1 {
+    margin-bottom: 2%;
+    font-size: 40px;
+}
+
+h1 {
+    margin-bottom: 0.1em;
+    font-size: 60px;
+}
+
+.p2 {
+    font-size: 22px;
+}
+
+nav.mainnav {
+    color: black;
+    background-color: black;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 7vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+nav.mainnav a{
+    display: flex;
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+}
+
+nav.mainnav ul {
+    display: flex;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    height: inherit;
+}
+
+nav.mainnav li.contact {
+    box-sizing: border-box;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+}
