@@ -79,5 +79,31 @@ div.socials ul{
 }
 
 section.projects {
+    padding-top: 15px;
     height: 100vh;
+}
+
+#container {
+    width: 100vw;
+
+}
+
+.col1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    height: 50vh;
+    float: left;
+    margin-right: 15vw;
+    font-family: 'Inter',sans-serif;
+}
+
+.col2 {
+    width: 40vw;
+    float: left;
+    height: 50vh;
+    background-image: url("./images/mockup1.svg");
+    background-size: cover;
 }
