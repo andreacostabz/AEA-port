@@ -67,3 +67,13 @@ nav.mainnav li.contact {
     padding-bottom: 5px;
     border-radius: 25px;
 }
+
+div.socials {
+    margin-top: 2%;
+}
+
+div.socials ul{
+    display: flex;
+    gap: 22px;
+    font-size: 20px;
+}
